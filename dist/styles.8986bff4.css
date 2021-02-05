@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
