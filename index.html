@@ -53,21 +53,21 @@
         <div class='portrait-image'>
           <img src="images/portrait.jpg" alt="Jacob Hickman Profile Picture" class='portrait-img-size' />
         </div>
-        <div class='introduction'>
+        <section class='introduction'>
           <h3 class='color-white'>Introduction</h3>
           <p class='color-white'>
             My name is Jacob Hickman, I've been programming for a little over 12 years,
             and I'm currently a student at <a href='https://thinkful.com/'>Thinkful</a>.
             I live in <a href='https://goo.gl/maps/tcZyJZZWkiJvMaC97'>San Antonio, Texas</a>,
             where I do freelance web development.</p>
-        </div>
+        </section>
       </div>
     </div>
-    <div class='about-me' id='about'>
+    <section class='about-me' id='about'>
       <div class='container border border-info rounded'>
         <div class='card'>
-          <div>
-            <h3 class='color-light-green'>About Me</h3>
+          <h3 class='color-light-green'>About Me</h3>
+          <article>
             <p class='color-light-green'>I've been passionate about the web since I was a little.
               While I was growing up, I would search the web for all types of things, from Rubik's
               Cube tutorials, video game walkthroughs and information, and so much more. I've been
@@ -92,7 +92,7 @@
               ukulele, ocarina,
               and a couple more. I've always enjoyed learning new things, and will never stop.</p>
             <h5>Here's a list of services I can provide</h5>
-          </div>
+          </article>
           <div class='services'>
             <ul class='service-list'>
               <li class='card service'><strong>Website Development with React, HTML, CSS, and Javascript</strong></li>
@@ -105,12 +105,12 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class='projects' id='projects'>
-      <div class='container'>
+    </section>
+    <section class='projects' id='projects'>
         <div class='project-title'>
           <h3 class='color-aqua'>Projects</h3>
         </div>
+        <article class='container'>
         <ul class='project-list'>
           <li class='card'>
             <div class='card-title'>
@@ -170,9 +170,25 @@
                 Code</a>
             </div>
           </li>
+          <li class='card'>
+            <div class='card-title'>
+              <h5><strong>Pivotal Trip</strong></h5>
+            </div>
+            <div class='card-img'>
+              <h4>TBD</h4>
+            </div>
+            <div class='card-body'>
+              <p>This website is a work in progress. It's being built for a e-sports organizations. This website is a project to help me practice my web 
+                development skills using ReactJS.</p>
+            </div>
+            <div class='card-footer'>
+              <a href='#projects' class='btn btn-danger'>TBD</a>
+              <a href='#projects' class='btn btn-danger'>TBD</a>
+            </div>
+          </li>
         </ul>
-      </div>
-    </div>
+      </article>
+    </section>
     <footer class='footer-bg' id='contact'>
       <div class='footer-title'>
         <h3 class='color-light-green'><strong>Contact Me!</strong></h3>
@@ -185,10 +201,8 @@
             <br>
             <label for='email'>Email: </label>
             <input type='text' id='email' name='email' />
-            <br>
             <label for='message'>Message: </label>
-            <textarea name='message'></textarea>
-            <br>
+            <textarea name='message' id='message'></textarea>
             <button type='submit' class='btn btn-primary'>Submit</button>
           </form>
           <br>
@@ -197,21 +211,21 @@
           <div class='card'>
             <h5>You can find me on -></h5>
             <ul class='social-list'>
-              <li>
+              <li class='btn-spacing'>
                 <a href='https://github.com/Elusionz243' class='btn btn-primary' target='_blank'>Github</a>
               </li>
-              <br>
-              <li>
+              <li class='btn-spacing'>
                 <a href='https://www.linkedin.com/in/jacob-hickman-5381501bb/' class='btn btn-primary'
                   target='_blank'>LinkedIn</a>
               </li>
-              <br>
-              <li>
+              <li class='btn-spacing'>
                 <a href='https://twitter.com/Elusionz243' class='btn btn-primary' target='_blank'>Twitter</a>
               </li>
-              <br>
-              <li>
+              <li class='btn-spacing'>
                 <a href='https://www.instagram.com/elusionz243/' class='btn btn-primary' target='_blank'>Instagram</a>
+              </li>
+              <li>
+                <p class='email-findme'><strong>Email: </strong><a href='mailto:jacobhickman23@yahoo.com' target='_blank'>jacobhickman23@yahoo.com</a></p>
               </li>
             </ul>
           </div>

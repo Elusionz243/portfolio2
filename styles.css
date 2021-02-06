@@ -95,13 +95,11 @@
 
 .project-list {
   display: block;
-  /* align-self: center; */
   padding: 0;
 }
 
 .project-list .card {
   min-width: 275px;
-  /* align-self: center; */
 }
 
 .footer-title {
@@ -171,6 +169,14 @@ form textarea {
 
 .social-list {
   list-style: none;
+}
+
+.email-findme {
+  margin-top: 8px;
+}
+
+.btn-spacing {
+  margin: 3px 0px;
 }
 
 @media all and (min-width: 1023px) {
