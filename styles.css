@@ -49,6 +49,7 @@
 .sub-title {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .main-bg-img {
@@ -116,7 +117,7 @@
 }
 
 .about-me .card {
-  padding: 15px 30px;
+  padding: 15px 0px;
   background-color: #131313;
 }
 
@@ -127,7 +128,6 @@
 .service-list {
   text-align: center;
   display: block;
-  align-self: center;
   padding: 0;
 }
 
@@ -141,16 +141,20 @@
   background-color: #313131;
 }
 
+form {
+  max-width: 310px;
+}
+
 form label {
   display: block;
   color: #fff;
 }
 
 form input,
-form textarea {
+form textarea,
+form button {
   width: 100%;
   margin-bottom: 20px;
-  max-width: 310px;
 }
 
 form textarea {
@@ -219,7 +223,7 @@ form textarea {
   
   .project-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   
   .projects .card {
@@ -242,11 +246,6 @@ form textarea {
   }
 
   .footer-flex {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .contact-form {
     display: flex;
     justify-content: space-between;
   }
@@ -432,5 +431,12 @@ form textarea {
   
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media all and (min-width: 768px){
+  .footer-flex {
+    justify-content: space-between;
+    display: flex;
   }
 }
